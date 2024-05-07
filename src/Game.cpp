@@ -28,22 +28,18 @@ void Game::run() {
         if(doodlebugExtinct) {
             std::cout << "\nDoodlebugs are extinct\n";
             printSummarize();
-            std::cout << "\nEnter 'q' to quit\n";
+            std::cout << "\nEnter any key to quit\n";
             char c;
             std::cin >> c;
-            if (c == 'q' || c == 'Q') {
-                break;
-            }
+            break;
         }
         if(antExtinct) {
             std::cout << "\nAnts are extinct\n";
             printSummarize();
-            std::cout << "\nEnter 'q' to quit\n";
+            std::cout << "\nEnter any key to quit\n";
             char c;
             std::cin >> c;
-            if (c == 'q' || c == 'Q') {
-                break;
-            }
+            break;
         }
         doodlebugExtinct = true;
         antExtinct = true;
