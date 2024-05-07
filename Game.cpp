@@ -21,10 +21,6 @@ void Game::run() {
     }
 
     while(true) {
-
-        std::cout << "\nWorld at time " << Organism::timeStep + 1 << ": \n" << std::endl;
-        printGrid(grid);
-
         performActions(grid, doodlebugExtinct, antExtinct);
         if(doodlebugExtinct) {
             std::cout << "\nDoodlebugs are extinct\n";
@@ -49,9 +45,11 @@ void Game::run() {
         doodlebugExtinct = true;
         antExtinct = true;
 
-        Organism::resizeCounters();
-
+        std::cout << "\nWorld at time " << Organism::timeStep + 1 << ": \n" << std::endl;
+        printGrid(grid);
         printStatistics(grid);
+
+        Organism::resizeCounters();
         Organism::timeStep++;
 
         // If the user chose to run automatically and we've reached the specified number of steps, switch to manual mode
