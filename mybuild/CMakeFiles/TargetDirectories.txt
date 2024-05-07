@@ -1,0 +1,3 @@
+/Users/kw/personal_projects/doodlebugs/mybuild/CMakeFiles/doodlebugs.dir
+/Users/kw/personal_projects/doodlebugs/mybuild/CMakeFiles/edit_cache.dir
+/Users/kw/personal_projects/doodlebugs/mybuild/CMakeFiles/rebuild_cache.dir

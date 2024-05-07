@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/doodlebugs.dir/game.cpp.o CMakeFiles/doodlebugs.dir/organism.cpp.o CMakeFiles/doodlebugs.dir/doodlebugs.cpp.o -o doodlebugs
