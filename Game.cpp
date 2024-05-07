@@ -20,6 +20,9 @@ void Game::run() {
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
     }
 
+    std::cout << "\nWorld initial state (time 0): \n" << std::endl;
+    printGrid(grid);
+
     while(true) {
         performActions(grid, doodlebugExtinct, antExtinct);
         if(doodlebugExtinct) {
