@@ -3,4 +3,4 @@ project(doodlebugs)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(doodlebugs game.cpp organism.cpp doodlebugs.cpp)
+add_executable(doodlebugs Game.cpp Organism.cpp doodlebugs.cpp)

@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/doodlebugs.dir/doodlebugs.cpp.o CMakeFiles/doodlebugs.dir/game.cpp.o CMakeFiles/doodlebugs.dir/organism.cpp.o CMakeFiles/doodlebugs.dir/main.cpp.o -o doodlebugs 
