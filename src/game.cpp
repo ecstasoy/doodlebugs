@@ -3,7 +3,6 @@
 //
 
 #include "../include/game.h"
-#include "../include/organism.h"
 
 void Game::run() {
     srand(static_cast<unsigned int>(time(nullptr)));

@@ -1,4 +1,3 @@
-#include "../include/organism.h"
 #include "../include/game.h"
 
 int main() {
