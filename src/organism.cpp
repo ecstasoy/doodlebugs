@@ -2,7 +2,7 @@
 // Created by Kunhua Huang on 5/7/24.
 //
 
-#include "organism.h"
+#include "../include/organism.h"
 
 std::vector<int> Organism::antEatenCount(1000, 0);
 std::vector<int> Organism::antBreedCount(1000, 0);

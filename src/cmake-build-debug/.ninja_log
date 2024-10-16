@@ -1,0 +1,6 @@
+# ninja log v5
+1	73	1729039165114479849	build.ninja	2e150ed2ac7345f6
+1	625	1729039165748199620	CMakeFiles/doodlebugs.dir/doodlebugs.cpp.o	97e4f5fdf5c2059
+1	666	1729039165790307994	CMakeFiles/doodlebugs.dir/organism.cpp.o	a279f2f93c95213c
+0	666	1729039165790651535	CMakeFiles/doodlebugs.dir/game.cpp.o	a8f853dc1e26e1ea
+666	767	1729039165893509412	doodlebugs	6d6be58065b6c9c0

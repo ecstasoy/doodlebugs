@@ -2,8 +2,8 @@
 // Created by Kunhua Huang on 5/7/24.
 //
 
-#include "game.h"
-#include "organism.h"
+#include "../include/game.h"
+#include "../include/organism.h"
 
 void Game::run() {
     srand(static_cast<unsigned int>(time(nullptr)));

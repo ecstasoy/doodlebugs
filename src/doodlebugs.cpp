@@ -1,5 +1,5 @@
-#include "organism.h"
-#include "game.h"
+#include "../include/organism.h"
+#include "../include/game.h"
 
 int main() {
     Game game;

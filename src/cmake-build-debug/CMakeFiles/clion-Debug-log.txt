@@ -1,25 +1,14 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/homebrew/Cellar/cmake/3.29.2/bin/ctest -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G "CodeBlocks - Unix Makefiles" -S /Users/kw/personal_projects/doodlebugs/src -B /Users/kw/personal_projects/doodlebugs/src/cmake-build-debug
-CMake Deprecation Warning:
-  Support for "Extra Generators" like
-
-    CodeBlocks
-
-  is deprecated and will be removed from a future version of CMake.  IDEs may
-  use the cmake-file-api(7) to view CMake-generated project build trees.
-
-
--- The C compiler identification is AppleClang 15.0.0.15000100
--- The CXX compiler identification is AppleClang 15.0.0.15000100
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/kw/personal_projects/doodlebugs/src -B /Users/kw/personal_projects/doodlebugs/src/cmake-build-debug
+-- The C compiler identification is AppleClang 16.0.0.16000026
+-- The CXX compiler identification is AppleClang 16.0.0.16000026
 -- Detecting C compiler ABI info
--- Detecting C compiler ABI info - failed
--- Check for working C compiler: /usr/bin/clang
--- Check for working C compiler: /usr/bin/clang - works
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - failed
--- Check for working CXX compiler: /usr/bin/clang++
--- Check for working CXX compiler: /usr/bin/clang++ - works
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Configuring done (0.8s)
